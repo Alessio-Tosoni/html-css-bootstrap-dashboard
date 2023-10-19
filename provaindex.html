@@ -11,7 +11,7 @@
 <body>
     <main>
         <!-- INIZIO NAV-BAR-->
-            <nav class="navbar navbar-expand-lg bg-light">
+            <nav class="navbar navbar-expand-lg bg-light fixed-top">
                 <div class="container-fluid">
                 <a class="navbar-brand" href="#"><img src="./img/logo.svg" alt=""></a>
                 <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNavDropdown" aria-controls="navbarNavDropdown" aria-expanded="false" aria-label="Toggle navigation">
@@ -26,20 +26,33 @@
             </nav>
           <!-- FINE NAV-BAR -->
 
-          <!-- INIZIO SIDE-BAR -->
-            <div id="side-bar" class="container">
-                <div class="row">
-                    <div class="col-12">
-
+          <div class="container justify-start">
+            <div class="row">
+                <!--INIZIO SIDEBAR -->
+                <div id="side-bar" class="col-4 justif-self-start">
+                    <div class="row">
+                        <div class="col-12">
+                            <i class="fa-solid fa-house" style="color: #ffffff;"></i>
+                            <div>home</div>
+                        </div>
                     </div>
-                    <div class="col-12">
-                        
-                    </div>
-                    <div class="col-12">
-                        
+                </div>
+                <!-- FINE SIDEBAR -->
+                <div class="col-8">
+                    <div class="container-fluid">
+                        <div class="row">
+                            <div id="fascione" class="col-12">
+                                <div class="col-12">
+                                    <div>Nuovo Studente</div> 
+                                </div>
+                                    <div>Boolean</div>
+                                
+                            </div>
+                        </div>
                     </div>
                 </div>
             </div>
+          </div>
     </main>
 </body>
 </html>

@@ -5,9 +5,12 @@
 #side-bar{
     background-color: blue;
     background-image: url(../img/sidebar-bg.png);
-    width:180px;
     height: 100vh;
-    justify-self: flex-start;
-    display: flex;
+
 }
+#fascione{
+    background-color: #1b72e8;
+    width: calc(100%);
+    min-height: 80px;
+}    
 
