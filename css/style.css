@@ -1,0 +1,13 @@
+.search-bar{
+    width:120%;
+}
+
+#side-bar{
+    background-color: blue;
+    background-image: url(../img/sidebar-bg.png);
+    width:180px;
+    height: 100vh;
+    justify-self: flex-start;
+    display: flex;
+}
+
