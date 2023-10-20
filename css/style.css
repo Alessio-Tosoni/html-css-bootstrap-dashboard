@@ -12,24 +12,51 @@ header{
 
 nav{
     height: 100%;
-    width: 110px;
+    width: 6rem;
     background: yellow;
     display: flex;
+    justify-content: space-between;
     flex-direction: column;
     flex-wrap: wrap;
     align-items: center;
-    background-color: indigo;
+    background-color: darkblue;
     background-image: url(../img/sidebar-bg.png);
 }
 
-.admin{
-    justify-self: center;
-}
 main{
     height: 100%;
-    width: calc(100% - 110px);
-    background: blue;
+    width: calc(100% - 7rem);
+    overflow-y: auto;
 }
-.w100{width: 100%;}
-.va-m{vertical-align: bottom;}
+.fascione{
+    background-color: #1b72e8;
+    color: white;
+}
+.contenuto{
+    background-color: white;
+}
+.my-tag{
+    background-color: blue !important;
+    font-size: 10px;
+}
+.numero{
+    font-size: 30px;
+}
+.off{
+    font-size: 18px;
+}
+.my-finta-card{
+    border: 2px solid grey;
+    
+}
+.my-finta-big-card{
+    border: 2px solid black;
+    
+}
+.w8{width: 8%;}
+.table-btn{
+    background: lightgray;
+    border: 1px solid black ;
+}
+
 
