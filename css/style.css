@@ -1,16 +1,35 @@
-.search-bar{
-    width:120%;
+.my-wrapper{
+display: flex;
+flex-wrap: wrap;
+height: 100vh;
+width: 100%;
 }
 
-#side-bar{
-    background-color: blue;
+header{
+    height: 80px;
+    width: 100%;
+}
+
+nav{
+    height: 100%;
+    width: 110px;
+    background: yellow;
+    display: flex;
+    flex-direction: column;
+    flex-wrap: wrap;
+    align-items: center;
+    background-color: indigo;
     background-image: url(../img/sidebar-bg.png);
-    height: 100vh;
-
 }
-#fascione{
-    background-color: #1b72e8;
-    width: calc(100%);
-    min-height: 80px;
-}    
+
+.admin{
+    justify-self: center;
+}
+main{
+    height: 100%;
+    width: calc(100% - 110px);
+    background: blue;
+}
+.w100{width: 100%;}
+.va-m{vertical-align: bottom;}
 
