@@ -1,3 +1,7 @@
+body{
+    font-family: sans-serif;
+}
+
 .my-wrapper{
 display: flex;
 flex-wrap: wrap;
@@ -9,11 +13,12 @@ header{
     height: 80px;
     width: 100%;
 }
-
+.my-logo{
+   max-height: 4rem;
+}
+nav, main{height:calc(100% - 80px) ;}
 nav{
-    height: 100%;
-    width: 6rem;
-    background: yellow;
+    width: 7rem;
     display: flex;
     justify-content: space-between;
     flex-direction: column;
@@ -21,11 +26,20 @@ nav{
     align-items: center;
     background-color: darkblue;
     background-image: url(../img/sidebar-bg.png);
+    overflow-y: hidden;
 }
 
+.sb-icon:hover{
+   border-bottom:2px solid orange;
+}
+.admin{
+    margin-bottom: 15px;
+}
+.admin:hover{
+    border-bottom:2px solid orange;
+}
 main{
-    height: 100%;
-    width: calc(100% - 6rem);
+    width: calc(100% - 7rem);
     overflow-y: auto;
 }
 .fascione{
@@ -42,21 +56,15 @@ main{
 .numero{
     font-size: 30px;
 }
+
 .off{
     font-size: 18px;
 }
-.my-finta-card{
-    border: 2px solid black;
-    
-}
-.my-finta-big-card{
-    border: 2px solid black;
-    
-}
-.w8{width: 8%;}
+.w8{width: 15%;}
+
 .table-btn{
-    background: lightgray;
-    border: 1px solid black ;
+    border: 1px solid grey ;
+    padding: 5px;
 }
 .tit-card{
     border-bottom: 2px solid black;
@@ -94,3 +102,11 @@ main{
     border-bottom: 2px solid black;
  }
  .fs-14{font-size: 14px;}
+
+
+ /* media query*/
+ @media  screen and (max-width: 767px) {
+    nav{
+        width: 5rem;
+    }
+ }
